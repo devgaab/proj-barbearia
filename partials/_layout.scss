@@ -230,13 +230,25 @@
     align-items: center;
     justify-content: center;
     padding: 54px 0;
-    gap: 24px;
+    gap: 25px;
     color: $white-normal;
+}
+
+.footer img {
+    width: 140px;
 }
 
 .footer-icons {
     display: flex;
-    gap: 15px;
+    gap: 16px;
+    transition: color 0.8s;
+}
+
+.footer-icons a:hover {
+    i {
+        color: $red-normal;
+        transform: scale(1.1);
+    }
 }
 
 // Botão whatsapp

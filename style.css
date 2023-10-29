@@ -282,13 +282,23 @@ i {
   align-items: center;
   justify-content: center;
   padding: 54px 0;
-  gap: 24px;
+  gap: 25px;
   color: #ffffff;
+}
+
+.footer img {
+  width: 140px;
 }
 
 .footer-icons {
   display: flex;
-  gap: 15px;
+  gap: 16px;
+  transition: color 0.8s;
+}
+
+.footer-icons a:hover i {
+  color: #d94140;
+  transform: scale(1.1);
 }
 
 .btn-whatsapp {
@@ -330,6 +340,21 @@ i {
     max-width: 64px;
   }
 }
+/* ===== Scrollbar CSS =====*/
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #040f1a;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #d94140;
+  border-radius: 10px;
+  border: 1px solid #06121e;
+}
+
 body {
   font-family: "Sora", sans-serif;
   width: 100%;
