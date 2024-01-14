@@ -10,13 +10,8 @@
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src=".github/preview-desktop-1.png" width="100%">
+  <img alt="projeto Barbearia" src=".github/preview-cover.jpg" width="100%">
 </p>
-
-<!-- <p align="center">
-  <img alt="projeto DevLinks" src=".github/preview-mobile-1.png" width="35%">
-  <img alt="projeto DevLinks" src=".github/preview-mobile-3.png" width="35%">
-</p> -->
 
 ### 🚀 Tecnologias
 
